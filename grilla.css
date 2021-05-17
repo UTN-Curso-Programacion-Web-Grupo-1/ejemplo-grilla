@@ -1,0 +1,45 @@
+.fila {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.celda-15 {
+    width: 15%;
+}
+
+.celda-18 {
+    width: 18%;
+}
+
+.celda-22 {
+    width: 22%;
+}
+
+.celda-30 {
+    width: 30%;
+}
+
+.celda-48 {
+    width: 48%;
+}
+
+@media screen and (max-width: 960px) {
+
+    .celda-celular-30 {
+        width: 30%;
+    }
+
+    .celda-celular-98 {
+        width: 98%;
+    }
+
+    .celda-celular-48 {
+        width: 48%;
+    }
+
+    .oculto-celular {
+        display: none;
+    }
+
+}

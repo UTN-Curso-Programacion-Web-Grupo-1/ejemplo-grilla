@@ -1,0 +1,48 @@
+* {
+    border: 1px solid black;
+}
+
+header, 
+section,
+footer {
+    margin: 2% 0px;
+}
+
+header, 
+div,
+footer {
+    height: 50px;
+}
+
+header,
+footer {
+    background-color: lightblue;
+}
+
+section {
+    padding: 20px 0px;
+}
+
+section:nth-child(1) {
+    background-color: lightgray;
+}
+
+section:nth-child(2) {
+    background-color: lightgreen;
+}
+
+section:nth-child(3) {
+    background-color: lightcoral;
+}
+
+section:nth-child(4) {
+    background-color: violet;
+}
+
+section:nth-child(5) {
+    background-color: lightgoldenrodyellow;
+}
+
+div {
+    background: white;
+}
